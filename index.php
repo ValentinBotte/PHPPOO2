@@ -8,7 +8,12 @@
 	</head>
 
 	<body>
+		<?php
+			require 'autoloader.php';
+			AutoLoader::register();
 
+			
+		?>
 	</body>
 
 </hmtl>
