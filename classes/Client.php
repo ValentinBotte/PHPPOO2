@@ -12,5 +12,9 @@
 		private $ville;
 		private $tel;
 		private $lesCommandes;
+
+		public function __toString(){
+			return "nom : " . $this->nom . " prenom : " . $this->prenom;
+		}
 		
 	}
