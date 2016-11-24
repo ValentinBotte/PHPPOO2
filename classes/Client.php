@@ -14,7 +14,7 @@
 		private $lesCommandes;
 
 		public function __toString(){
-			return "nom : " . $this->nom . " prenom : " . $this->prenom;
+			return "Objet [CLIENT] : [id] = " . $this->id . " - [nom] = " . $this->nom . " - [prenom] = " . $this->prenom;
 		}
 		
 	}

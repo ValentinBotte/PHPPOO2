@@ -24,7 +24,7 @@
 			Retourne la requête
 
 		*/
-		public function requeteSQL($sql, $params){
+		public function requeteSQL($sql, $params = null){
 			$req = $this->_dbmysql->prepare($sql);
 			$req->execute($params);
 			return $req;
